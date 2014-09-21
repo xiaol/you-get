@@ -1,0 +1,48 @@
+body {
+  color: #333;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.2em;
+}
+
+nav {
+  position: fixed;
+}
+
+article {
+  position: absolute;
+  width: 50%;
+  left: 20%;
+  padding: 5%;
+  font-size: 15px;
+}
+
+address {
+  text-align: center;
+}
+
+h1.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1.subtitle {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+img {
+  display: inline;
+}
+
+ol {
+  text-align: center;
+  list-style-type: upper-roman;
+}
+
+a {
+  color: #333;
+}
+
+footer {
+  text-align: right;
+}

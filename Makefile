@@ -12,7 +12,6 @@ test:
 
 clean:
 	zenity --question
-	rm -f README.rst
 	rm -fr build/ dist/ src/*.egg-info/
 	find . | grep __pycache__ | xargs rm -fr
 	find . | grep .pyc | xargs rm -f

@@ -1,0 +1,182 @@
+<h1 id="you-get">You-Get</h1>
+<p><a href="https://travis-ci.org/soimort/you-get"><img src="https://api.travis-ci.org/soimort/you-get.png" alt="Build Status" /></a> <a href="http://badge.fury.io/py/you-get"><img src="https://badge.fury.io/py/you-get.png" alt="PyPI version" /></a></p>
+<p><a href="http://www.soimort.org/you-get">You-Get</a> is a video downloader for <a href="http://www.youtube.com">YouTube</a>, <a href="http://www.youku.com">Youku</a>, <a href="http://www.nicovideo.jp">niconico</a> and a few other sites.</p>
+<p><code>you-get</code> is a command-line program, written completely in Python 3. Its prospective users are those who prefer CLI over GUI. With <code>you-get</code>, downloading a video is just one command away:</p>
+<pre><code>$ you-get http://youtu.be/sGwy8DsUJ4M</code></pre>
+<p>Fork me on GitHub: <a href="https://github.com/soimort/you-get" class="uri">https://github.com/soimort/you-get</a></p>
+<h2 id="features">Features</h2>
+<h3 id="supported-sites">Supported Sites</h3>
+<p>First-class (better maintained):</p>
+<ul>
+<li>Dailymotion <a href="http://dailymotion.com" class="uri">http://dailymotion.com</a></li>
+<li>Freesound <a href="http://www.freesound.org" class="uri">http://www.freesound.org</a></li>
+<li>Google+ <a href="http://plus.google.com" class="uri">http://plus.google.com</a></li>
+<li>Instagram <a href="http://instagram.com" class="uri">http://instagram.com</a></li>
+<li>JPopsuki <a href="http://jpopsuki.tv" class="uri">http://jpopsuki.tv</a></li>
+<li>Magisto <a href="http://www.magisto.com" class="uri">http://www.magisto.com</a></li>
+<li>Mixcloud <a href="http://www.mixcloud.com" class="uri">http://www.mixcloud.com</a></li>
+<li>Niconico (ニコニコ動画) <a href="http://www.nicovideo.jp" class="uri">http://www.nicovideo.jp</a></li>
+<li>Vimeo <a href="http://vimeo.com" class="uri">http://vimeo.com</a></li>
+<li>Vine <a href="http://vine.co" class="uri">http://vine.co</a></li>
+<li>Youku (优酷) <a href="http://www.youku.com" class="uri">http://www.youku.com</a></li>
+<li>YouTube <a href="http://www.youtube.com" class="uri">http://www.youtube.com</a></li>
+</ul>
+<p>Others:</p>
+<ul>
+<li>AcFun <a href="http://www.acfun.tv" class="uri">http://www.acfun.tv</a></li>
+<li>Alive.in.th <a href="http://alive.in.th" class="uri">http://alive.in.th</a></li>
+<li>Baidu Music (百度音乐) <a href="http://music.baidu.com" class="uri">http://music.baidu.com</a></li>
+<li>Baidu Wangpan (百度网盘) <a href="http://pan.baidu.com" class="uri">http://pan.baidu.com</a></li>
+<li>bilibili <a href="http://www.bilibili.com" class="uri">http://www.bilibili.com</a></li>
+<li>Blip <a href="http://blip.tv" class="uri">http://blip.tv</a></li>
+<li>Catfun (喵星球) <a href="http://www.catfun.tv" class="uri">http://www.catfun.tv</a></li>
+<li>CBS <a href="http://www.cbs.com" class="uri">http://www.cbs.com</a></li>
+<li>CNTV (中国网络电视台) <a href="http://www.cntv.cn" class="uri">http://www.cntv.cn</a></li>
+<li>Coursera <a href="https://www.coursera.org" class="uri">https://www.coursera.org</a></li>
+<li>Dongting (天天动听) <a href="http://www.dongting.com" class="uri">http://www.dongting.com</a></li>
+<li>Douban (豆瓣) <a href="http://douban.com" class="uri">http://douban.com</a></li>
+<li>DouyuTV (斗鱼) <a href="http://www.douyutv.com" class="uri">http://www.douyutv.com</a></li>
+<li>eHow <a href="http://www.ehow.com" class="uri">http://www.ehow.com</a></li>
+<li>Facebook <a href="http://facebook.com" class="uri">http://facebook.com</a></li>
+<li>Google Drive <a href="http://docs.google.com" class="uri">http://docs.google.com</a></li>
+<li>ifeng (凤凰视频) <a href="http://v.ifeng.com" class="uri">http://v.ifeng.com</a></li>
+<li>iQIYI (爱奇艺) <a href="http://www.iqiyi.com" class="uri">http://www.iqiyi.com</a></li>
+<li>Joy.cn (激动网) <a href="http://www.joy.cn" class="uri">http://www.joy.cn</a></li>
+<li>Khan Academy <a href="http://www.khanacademy.org" class="uri">http://www.khanacademy.org</a></li>
+<li>Ku6 (酷6网) <a href="http://www.ku6.com" class="uri">http://www.ku6.com</a></li>
+<li>Kugou (酷狗音乐) <a href="http://www.kugou.com" class="uri">http://www.kugou.com</a></li>
+<li>Kuwo (酷我音乐) <a href="http://www.kuwo.cn" class="uri">http://www.kuwo.cn</a></li>
+<li>LeTV (乐视网) <a href="http://www.letv.com" class="uri">http://www.letv.com</a></li>
+<li>MioMio <a href="http://www.miomio.tv" class="uri">http://www.miomio.tv</a></li>
+<li>MTV 81 <a href="http://www.mtv81.com" class="uri">http://www.mtv81.com</a></li>
+<li>NetEase (网易视频) <a href="http://v.163.com" class="uri">http://v.163.com</a></li>
+<li>NetEase Music (网易云音乐) <a href="http://music.163.com" class="uri">http://music.163.com</a></li>
+<li>PPTV <a href="http://www.pptv.com" class="uri">http://www.pptv.com</a></li>
+<li>QQ (腾讯视频) <a href="http://v.qq.com" class="uri">http://v.qq.com</a></li>
+<li>Sina (新浪视频) <a href="http://video.sina.com.cn" class="uri">http://video.sina.com.cn</a></li>
+<li>Sohu (搜狐视频) <a href="http://tv.sohu.com" class="uri">http://tv.sohu.com</a></li>
+<li>SongTaste <a href="http://www.songtaste.com" class="uri">http://www.songtaste.com</a></li>
+<li>SoundCloud <a href="http://soundcloud.com" class="uri">http://soundcloud.com</a></li>
+<li>TED <a href="http://www.ted.com" class="uri">http://www.ted.com</a></li>
+<li>Tudou (土豆) <a href="http://www.tudou.com" class="uri">http://www.tudou.com</a></li>
+<li>Tumblr <a href="http://www.tumblr.com" class="uri">http://www.tumblr.com</a></li>
+<li>VID48 <a href="http://vid48.com" class="uri">http://vid48.com</a></li>
+<li>VideoBam <a href="http://videobam.com" class="uri">http://videobam.com</a></li>
+<li>VK <a href="http://vk.com" class="uri">http://vk.com</a></li>
+<li>56 (56网) <a href="http://www.56.com" class="uri">http://www.56.com</a></li>
+<li>Xiami (虾米) <a href="http://www.xiami.com" class="uri">http://www.xiami.com</a></li>
+<li>YinYueTai (音悦台) <a href="http://www.yinyuetai.com" class="uri">http://www.yinyuetai.com</a></li>
+</ul>
+<h2 id="prerequisites">Prerequisites</h2>
+<h3 id="python-3">Python 3</h3>
+<p><code>you-get</code> is known to work with:</p>
+<ul>
+<li>Python 3.2</li>
+<li>Python 3.3</li>
+<li>Python 3.4</li>
+<li>PyPy3</li>
+</ul>
+<p><code>you-get</code> does not (and will never) work with Python 2.x.</p>
+<h3 id="dependencies-optional-but-recommended">Dependencies (Optional but Recommended)</h3>
+<ul>
+<li><a href="http://ffmpeg.org">FFmpeg</a> or <a href="http://libav.org/">Libav</a>
+<ul>
+<li>For video and audio processing.</li>
+</ul></li>
+<li><a href="http://rtmpdump.mplayerhq.hu/">RTMPDump</a>
+<ul>
+<li>For RTMP stream processing.</li>
+</ul></li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>You don't have to learn the Python programming language to use this tool. However, you need to make sure that Python 3 (with pip) is installed on your system.</p>
+<p>On Linux and BSD, installation made easy with your package manager:</p>
+<ul>
+<li>Find and install packages: <code>python3</code> and <code>python3-pip</code> (if your distro did not make Python 3 the default, e.g., Debian)</li>
+<li>Or packages: <code>python</code> and <code>python-pip</code> (if your distro made Python 3 the default, e.g., Arch)</li>
+</ul>
+<p>On other systems (which tend to have quite evil user experience), please read the documentation and ask Google for help:</p>
+<ul>
+<li><a href="https://www.python.org/downloads/" class="uri">https://www.python.org/downloads/</a></li>
+<li><a href="https://pip.pypa.io/en/latest/installing.html" class="uri">https://pip.pypa.io/en/latest/installing.html</a></li>
+</ul>
+<h3 id="using-pip-standard-method">1. Using Pip (Standard Method)</h3>
+<pre><code>$ [sudo] pip3 install you-get</code></pre>
+<p>Check if the installation is successful:</p>
+<pre><code>$ you-get -V</code></pre>
+<h3 id="downloading-from-pypi">2. Downloading from PyPI</h3>
+<p>You can also download the Python wheel for each release from <a href="https://pypi.python.org/pypi/you-get">PyPI</a>.</p>
+<p>If you choose to download the wheel from a PyPI mirror or elsewhere, remember to verify the signature of the package. For example:</p>
+<pre><code>$ gpg --verify you_get-0.3.30-py3-none-any.whl.asc you_get-0.3.30-py3-none-any.whl</code></pre>
+<h3 id="downloading-from-github">3. Downloading from GitHub</h3>
+<p>Download it <a href="https://github.com/soimort/you-get/zipball/master">here</a> or:</p>
+<pre><code>$ wget -O you-get.zip https://github.com/soimort/you-get/zipball/master
+$ unzip you-get.zip</code></pre>
+<p>Use the raw script without installation:</p>
+<pre><code>$ cd soimort-you-get-*/
+$ ./you-get -V</code></pre>
+<p>To install the package into the system path, execute:</p>
+<pre><code>$ [sudo] make install</code></pre>
+<p>Check if the installation is successful:</p>
+<pre><code>$ you-get -V</code></pre>
+<h3 id="using-git-recommended-for-developers-and-advanced-users">4. Using Git (Recommended for Developers and Advanced Users)</h3>
+<pre><code>$ git clone git://github.com/soimort/you-get.git</code></pre>
+<p>Use the raw script without installation:</p>
+<pre><code>$ cd you-get/
+$ ./you-get -V</code></pre>
+<p>To install the package into the system path, execute:</p>
+<pre><code>$ [sudo] make install</code></pre>
+<p>Check if the installation is successful:</p>
+<pre><code>$ you-get -V</code></pre>
+<h2 id="upgrading">Upgrading</h2>
+<h3 id="using-pip">1. Using Pip</h3>
+<pre><code>$ [sudo] pip3 install --upgrade you-get</code></pre>
+<h2 id="getting-started">Getting Started</h2>
+<p>Display the information of a video without downloading:</p>
+<pre><code>$ you-get -i &#39;http://www.youtube.com/watch?v=sGwy8DsUJ4M&#39;</code></pre>
+<p>Download a video:</p>
+<pre><code>$ you-get &#39;http://www.youtube.com/watch?v=sGwy8DsUJ4M&#39;</code></pre>
+<p>Download multiple videos:</p>
+<pre><code>$ you-get &#39;http://www.youtube.com/watch?v=sGwy8DsUJ4M&#39; &#39;http://www.youtube.com/watch?v=8bQlxQJEzLk&#39;</code></pre>
+<p>By default, program will skip any video that already exists in the local directory when downloading. If a temporary file (ends with a <code>.download</code> extension in its file name) is found, program will resume the download from last session.</p>
+<p>To enforce re-downloading of videos, use option <code>-f</code>: (this will overwrite any existing video or temporary file)</p>
+<pre><code>$ you-get -f &#39;http://www.youtube.com/watch?v=sGwy8DsUJ4M&#39;</code></pre>
+<p>Set the output directory for downloaded files:</p>
+<pre><code>$ you-get -o ~/Downloads &#39;http://www.youtube.com/watch?v=sGwy8DsUJ4M&#39;</code></pre>
+<p>Use a specific HTTP proxy for downloading:</p>
+<pre><code>$ you-get -x 127.0.0.1:8087 &#39;http://www.youtube.com/watch?v=sGwy8DsUJ4M&#39;</code></pre>
+<p>By default, the system proxy setting (i.e. environment variable <code>http_proxy</code> on *nix) is applied. To disable any proxy, use option <code>--no-proxy</code>:</p>
+<pre><code>$ you-get --no-proxy &#39;http://www.youtube.com/watch?v=sGwy8DsUJ4M&#39;</code></pre>
+<p>Watch a video in your media player of choice: (this is just a trick to let you get rid of annoying ads on the video site)</p>
+<pre><code>$ you-get -p vlc &#39;http://www.youtube.com/watch?v=sGwy8DsUJ4M&#39;</code></pre>
+<h2 id="faq">FAQ</h2>
+<p><strong>Q</strong>: Some videos on Youku are restricted to mainland China visitors. Is it possible to bypass this restriction and download those videos?</p>
+<p><strong>A</strong>: Thanks to <a href="https://github.com/zhuzhuor/Unblock-Youku">Unblock Youku</a>, it is now possible to access such videos from an oversea IP address. You can simply use <code>you-get</code> with option <code>-y proxy.uku.im:8888</code>.</p>
+<p><strong>Q</strong>: Will you release an executable version / Windows Installer package?</p>
+<p><strong>A</strong>: Yes, it's on my to-do list.</p>
+<h2 id="command-line-options">Command-Line Options</h2>
+<p>For a complete list of available options, see:</p>
+<pre><code>$ you-get --help
+Usage: you-get [OPTION]... [URL]...
+
+Startup options:
+    -V | --version                           Display the version and exit.
+    -h | --help                              Print this help and exit.
+
+Download options (use with URLs):
+    -f | --force                             Force overwriting existed files.
+    -i | --info                              Display the information of videos without downloading.
+    -u | --url                               Display the real URLs of videos without downloading.
+    -c | --cookies                           Load NetScape&#39;s cookies.txt file.
+    -n | --no-merge                          Don&#39;t merge video parts.
+    -F | --format &lt;STREAM_ID&gt;                Video format code.
+    -o | --output-dir &lt;PATH&gt;                 Set the output directory for downloaded videos.
+    -p | --player &lt;PLAYER [options]&gt;         Directly play the video with PLAYER like vlc/smplayer.
+    -x | --http-proxy &lt;HOST:PORT&gt;            Use specific HTTP proxy for downloading.
+    -y | --extractor-proxy &lt;HOST:PORT&gt;       Use specific HTTP proxy for extracting stream data.
+         --no-proxy                          Don&#39;t use any proxy. (ignore $http_proxy)
+         --debug                             Show traceback on KeyboardInterrupt.</code></pre>
+<h2 id="license">License</h2>
+<p>You-Get is licensed under the <a href="https://raw.github.com/soimort/you-get/master/LICENSE.txt">MIT license</a>.</p>
+<h2 id="reporting-an-issue-contributing">Reporting an Issue / Contributing</h2>
+<p>Please read <a href="https://github.com/soimort/you-get/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a> first.</p>
